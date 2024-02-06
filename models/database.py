@@ -17,7 +17,8 @@ class Database:
                                     name TEXT NOT NULL,
                                     lastname TEXT NOT NULL,
                                     password TEXT NOT NULL,
-                                    level TEXT NOT NULL
+                                    level TEXT NOT NULL,
+                                    phone TEXT 
                                 )
                                 
                                 CREATE TABLE IF NOT EXISTS users(
