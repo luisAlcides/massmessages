@@ -1,0 +1,39 @@
+/* styles.qss */
+
+/* Estilo para el fondo de la ventana principal */
+QMainWindow {
+    background-color: #f0f0f0;  /* Color de fondo gris claro */
+}
+
+/* Estilo para el título de la ventana */
+QMainWindow::title {
+    background-color: #4CAF50;  /* Color de fondo verde */
+    color: white;               /* Texto en color blanco */
+    padding: 10px;              /* Espaciado interno */
+}
+
+/* Estilo para los QLabel y QLineEdit */
+QLabel, QLineEdit {
+    font-size: 18px;            /* Tamaño de fuente */
+    padding: 8px;               /* Espaciado interno */
+    color: #333;                /* Color de texto gris oscuro */
+}
+
+/* Estilo para el QPushButton */
+QPushButton {
+    font-size: 18px;            /* Tamaño de fuente */
+    padding: 10px 20px;         /* Espaciado interno */
+    background-color: #4CAF50;  /* Color de fondo verde */
+    color: white;               /* Texto en color blanco */
+    border: none;               /* Sin borde */
+}
+
+/* Estilo para el QPushButton al pasar el mouse */
+QPushButton:hover {
+    background-color: #45a049;  /* Color de fondo verde más oscuro */
+}
+
+/* Estilo para el QPushButton al presionarlo */
+QPushButton:pressed {
+    background-color: #367d36;  /* Color de fondo verde más oscuro */
+}
