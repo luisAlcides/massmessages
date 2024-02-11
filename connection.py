@@ -34,13 +34,13 @@ class Connection:
                 name TEXT NOT NULL,
                 last_name TEXT NOT NULL,
                 phone TEXT NOT NULL UNIQUE,
-                salary NUMERIC,
-                overtime NUMERIC,
-                travelers NUMERIC,
-                trips NUMERIC,
-                productive_bonus NUMERIC,
-                social_security NUMERIC,
-                IR NUMERIC
+                salary REAL,
+                overtime REAL,
+                travelers REAL,
+                trips REAL,
+                productive_bonus REAL,
+                social_security REAL,
+                IR REAL
                 
             )
         '''
