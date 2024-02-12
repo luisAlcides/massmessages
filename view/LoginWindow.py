@@ -6,7 +6,7 @@ from controller.userController import UserController
 from model.userModel import UserModel
 from view.mainWindow import MainWindow
 
-from utils.validation import validatePassword, validateUsername
+from utils.validation import validate_password, validate_username
 
 
 class LoginWindow():
@@ -28,11 +28,11 @@ class LoginWindow():
         username = self.login_window.txt_username.text()
         password = self.login_window.txt_password.text()
         
-        if not validateUsername(username):
+        if not validate_username(username):
             self.showErrorMessage('El nombre de usuario debe tener almenos dos caracteres')
             return
         
-        if not validatePassword(password):
+        if not validate_password(password):
             self.showErrorMessage('La contrasena debe tener al menos 5 caracteres')
             return  
         

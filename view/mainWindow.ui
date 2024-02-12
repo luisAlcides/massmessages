@@ -20,7 +20,7 @@
      <x>0</x>
      <y>0</y>
      <width>875</width>
-     <height>23</height>
+     <height>25</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuArchivo">
@@ -31,6 +31,8 @@
     <addaction name="btn_new_personal"/>
     <addaction name="actionVer_Mi_Perfil"/>
     <addaction name="actionVer_Personal"/>
+    <addaction name="btn_primera_quincena"/>
+    <addaction name="btn_segunda_quincena"/>
    </widget>
    <widget class="QMenu" name="menuCreditos">
     <property name="title">
@@ -78,6 +80,16 @@
   <action name="actionVer_Personal">
    <property name="text">
     <string>Personal</string>
+   </property>
+  </action>
+  <action name="btn_primera_quincena">
+   <property name="text">
+    <string>Primera Quincena</string>
+   </property>
+  </action>
+  <action name="btn_segunda_quincena">
+   <property name="text">
+    <string>Segunda Quincena</string>
    </property>
   </action>
  </widget>

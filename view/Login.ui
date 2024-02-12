@@ -123,7 +123,7 @@ color: black;</string>
     </rect>
    </property>
    <property name="text">
-    <string>admin.alvaro.23$</string>
+    <string>Admin.alvaro.23$</string>
    </property>
    <property name="echoMode">
     <enum>QLineEdit::Password</enum>

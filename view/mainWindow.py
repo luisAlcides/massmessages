@@ -13,8 +13,8 @@ class MainWindow():
         
         self.main_window.btn_new_user.triggered.connect(self.openNewRegister)
         self.main_window.btn_new_personal.triggered.connect(self.openNewPersonal)
-        self.main_window.btn_user.triggered.connect(self.openUser)
-        self.main_window.btn_personal.triggered.connect(self.openPersonal)
+        #self.main_window.btn_user.triggered.connect(self.openUser)
+        #self.main_window.btn_personal.triggered.connect(self.openPersonal)
         
     
     def openNewRegister(self):
