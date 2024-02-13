@@ -58,20 +58,9 @@ class Connection:
     def setup_database(self):
         with self as cursor:  # Usa el context manager
             self.create_tables()
-            #self.create_admin() 
+            
 
-"""    def create_admin(self):
-        sql_insert_admin = '''
-                INSERT INTO users(first_name, second_name,first_surname, second_surname, username, password, phone, role)
-                            VALUES (?, ?,?, ?, ?, ?, ?, ?)
-            '''
-        values = ('Alvaro','Antonio','Quezada','Quintanilla','alvaroQuezada', '240f8e36eb4337049c62c6c6e4cf1e42f25bcda146aec3e5b28b0241b394eea3', '+50584355878', 'admin')
-        with self as cursor:
-            try:
-                cursor.execute(sql_insert_admin, values)
-                self.con.commit()
-            except sqlite3.IntegrityError as e:
-                print('Error creating admin: ', e) """
+
 
     
 
