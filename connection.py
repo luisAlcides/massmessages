@@ -27,7 +27,8 @@ class Connection:
                 username TEXT NOT NULL UNIQUE,
                 password TEXT NOT NULL,
                 phone TEXT NOT NULL UNIQUE,
-                role TEXT
+                role TEXT,
+                created DATETIME DEFAULT CURRENT_TIMESTAMP
             )
         '''
         sql_create_table_worksheet = '''
@@ -44,7 +45,8 @@ class Connection:
                 trips REAL,
                 productive_bonus REAL,
                 social_security REAL,
-                IR REAL
+                IR REAL,
+                created DATETIME DEFAULT CURRENT_TIMESTAMP
                 
             )
         '''

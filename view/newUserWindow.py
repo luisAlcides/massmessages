@@ -11,13 +11,13 @@ class NewUserWindow:
         self.ui.show()
 
     def validate_fields(self):
-        first_name = self.ui.txt_first_name.text()
-        second_name = self.ui.txt_second_name.text()
-        first_surname = self.ui.txt_first_surname.text()
-        second_surname = self.ui.txt_second_surname.text()
-        username = self.ui.txt_username.text()
-        password = self.ui.txt_password.text()
-        phone = self.ui.txt_phone.text()
+        first_name = self.ui.txt_first_name
+        second_name = self.ui.txt_second_name
+        first_surname = self.ui.txt_first_surname
+        second_surname = self.ui.txt_second_surname
+        username = self.ui.txt_username
+        password = self.ui.txt_password
+        phone = self.ui.txt_phone
         role = self.ui.cb_role.currentText()
 
         if not validate_text(first_name, 'Primer Nombre:'):

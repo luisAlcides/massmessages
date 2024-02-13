@@ -25,8 +25,8 @@ class LoginWindow():
         
     
     def login(self):
-        username = self.login_window.txt_username.text()
-        password = self.login_window.txt_password.text()
+        username = self.login_window.txt_username
+        password = self.login_window.txt_password
         
         if not validate_username(username):
             self.showErrorMessage('El nombre de usuario debe tener almenos dos caracteres')
@@ -36,7 +36,7 @@ class LoginWindow():
             self.showErrorMessage('La contrasena debe tener al menos 5 caracteres')
             return  
         
-        user = UserModel(username=username, password=password)
+        user = UserModel(username=username.text(), password=password.text())
         controller = UserController()
         res = controller.login(user)
         if res:
