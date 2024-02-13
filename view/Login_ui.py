@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'c:\Users\leymask\Documents\code\massmessages\view\Login.ui'
+# Form implementation generated from reading ui file '/home/heracle/code/massmessages/view/Login.ui'
 #
 # Created by: PyQt6 UI code generator 6.6.1
 #
@@ -81,6 +81,6 @@ class Ui_formLogin(object):
         self.label_2.setText(_translate("formLogin", "Inicio de sesion"))
         self.label_3.setText(_translate("formLogin", "Usuario:"))
         self.label_4.setText(_translate("formLogin", "Password:"))
-        self.txt_username.setText(_translate("formLogin", "alvaroQuezada"))
-        self.txt_password.setText(_translate("formLogin", "Admin.alvaro.23$"))
+        self.txt_username.setText(_translate("formLogin", "alvaro.quezada"))
+        self.txt_password.setText(_translate("formLogin", "Quezada$alvaro23"))
         self.btn_login.setText(_translate("formLogin", "Iniciar"))

@@ -1,6 +1,6 @@
 from PyQt6.QtWidgets import QApplication
 
-from view.LoginWindow import LoginWindow
+from view.LoginWindow import LoginWindow, MainWindow
 
 
 class MassMessages():

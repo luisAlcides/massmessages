@@ -36,7 +36,7 @@ class LoginWindow():
             self.showErrorMessage('La contrasena debe tener al menos 5 caracteres')
             return  
         
-        user = UserModel(username=self.login_window.txt_username.text(), password=self.login_window.txt_password.text())
+        user = UserModel(username=username, password=password)
         controller = UserController()
         res = controller.login(user)
         if res:

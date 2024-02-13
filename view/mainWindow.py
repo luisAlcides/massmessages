@@ -1,4 +1,5 @@
 from PyQt6 import uic
+from connection import Connection
 
 from view.newUserWindow import NewUserWindow
 from view.newPersonalWindow import NewPersonalWindow

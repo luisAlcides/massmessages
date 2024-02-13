@@ -20,8 +20,10 @@ class Connection:
         sql_create_table_users = '''
             CREATE TABLE IF NOT EXISTS users(
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
-                name TEXT NOT NULL,
-                last_name TEXT NOT NULL,
+                first_name TEXT NOT NULL,
+                second_name TEXT,
+                first_surname TEXT NOT NULL,
+                second_surname TEXT, 
                 username TEXT NOT NULL UNIQUE,
                 password TEXT NOT NULL,
                 phone TEXT NOT NULL UNIQUE,
@@ -31,8 +33,10 @@ class Connection:
         sql_create_table_worksheet = '''
                 CREATE TABLE IF NOT EXISTS worksheet(
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
-                name TEXT NOT NULL,
-                last_name TEXT NOT NULL,
+                first_name TEXT NOT NULL,
+                second_name TEXT,
+                first_surname TEXT NOT NULL,
+                second_surname TEXT,
                 phone TEXT NOT NULL UNIQUE,
                 salary REAL,
                 overtime REAL,
@@ -51,22 +55,23 @@ class Connection:
                 cursor.execute(sql_create_table_worksheet)
             except sqlite3.OperationalError as e:
                 print('Error creating tables: ', e)
+    def setup_database(self):
+        with self as cursor:  # Usa el context manager
+            self.create_tables()
+            #self.create_admin() 
 
-    def create_admin(self):
+"""    def create_admin(self):
         sql_insert_admin = '''
-                INSERT INTO users(name, last_name, username, password, phone, role)
-                            VALUES (?, ?, ?, ?, ?, ?)
+                INSERT INTO users(first_name, second_name,first_surname, second_surname, username, password, phone, role)
+                            VALUES (?, ?,?, ?, ?, ?, ?, ?)
             '''
-        values = ('Alvaro Antonio', 'Quezada Quintanilla', 'alvaroQuezada', 'admin.alvaro.23$', '+50584355878', 'admin')
+        values = ('Alvaro','Antonio','Quezada','Quintanilla','alvaroQuezada', '240f8e36eb4337049c62c6c6e4cf1e42f25bcda146aec3e5b28b0241b394eea3', '+50584355878', 'admin')
         with self as cursor:
             try:
                 cursor.execute(sql_insert_admin, values)
                 self.con.commit()
             except sqlite3.IntegrityError as e:
-                print('Error creating admin: ', e)
+                print('Error creating admin: ', e) """
 
-    def setup_database(self):
-        with self as cursor:  # Usa el context manager
-            self.create_tables()
-            self.create_admin() 
+    
 

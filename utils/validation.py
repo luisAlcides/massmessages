@@ -11,12 +11,13 @@ def messageError(message):
 ### validation
 
 def validate_text(text, campo):
-    if not text:
-        messageError(f"El campo {campo} no pueden estar vacios")
-        return False
-    if not re.match(r"^[a-zA-Z]+$", text):
-        messageError(f"El campo {campo} solo permite letras")
-        return False
+    if (campo == 'Primer Nombre:' or campo == 'Primer Apellido:'):
+        if not text:
+            messageError(f"El campo {campo} no pueden estar vacios")
+            return False
+        if not re.match(r"^[a-zA-Z]+$", text):
+            messageError(f"El campo {campo} solo permite letras")
+            return False
     return True
 
 

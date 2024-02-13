@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>760</width>
-    <height>676</height>
+    <height>730</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -25,10 +25,10 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>60</x>
      <y>90</y>
-     <width>81</width>
-     <height>18</height>
+     <width>121</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -38,10 +38,10 @@
     </font>
    </property>
    <property name="text">
-    <string>Nombres</string>
+    <string>Primer Nombre</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="txt_name">
+  <widget class="QLineEdit" name="txt_first_name">
    <property name="geometry">
     <rect>
      <x>220</x>
@@ -74,10 +74,10 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>70</x>
      <y>140</y>
-     <width>81</width>
-     <height>18</height>
+     <width>111</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -87,10 +87,10 @@
     </font>
    </property>
    <property name="text">
-    <string>Apellidos</string>
+    <string>Segundo Nombre</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="txt_last_name">
+  <widget class="QLineEdit" name="txt_second_name">
    <property name="geometry">
     <rect>
      <x>220</x>
@@ -103,8 +103,8 @@
   <widget class="QLineEdit" name="txt_salary">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>250</y>
+     <x>210</x>
+     <y>340</y>
      <width>401</width>
      <height>26</height>
     </rect>
@@ -119,8 +119,8 @@
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>250</y>
+     <x>90</x>
+     <y>340</y>
      <width>101</width>
      <height>18</height>
     </rect>
@@ -138,8 +138,8 @@
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>200</y>
+     <x>90</x>
+     <y>290</y>
      <width>81</width>
      <height>18</height>
     </rect>
@@ -157,8 +157,8 @@
   <widget class="QLineEdit" name="txt_phone">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>200</y>
+     <x>210</x>
+     <y>290</y>
      <width>401</width>
      <height>26</height>
     </rect>
@@ -173,8 +173,8 @@
   <widget class="QPushButton" name="btn_register">
    <property name="geometry">
     <rect>
-     <x>330</x>
-     <y>600</y>
+     <x>320</x>
+     <y>690</y>
      <width>121</width>
      <height>41</height>
     </rect>
@@ -186,8 +186,8 @@
   <widget class="QLineEdit" name="txt_overtime">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>300</y>
+     <x>210</x>
+     <y>390</y>
      <width>401</width>
      <height>26</height>
     </rect>
@@ -202,8 +202,8 @@
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>300</y>
+     <x>90</x>
+     <y>390</y>
      <width>101</width>
      <height>18</height>
     </rect>
@@ -221,8 +221,8 @@
   <widget class="QLineEdit" name="txt_travelers">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>340</y>
+     <x>210</x>
+     <y>430</y>
      <width>401</width>
      <height>26</height>
     </rect>
@@ -237,8 +237,8 @@
   <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>340</y>
+     <x>90</x>
+     <y>430</y>
      <width>91</width>
      <height>18</height>
     </rect>
@@ -256,8 +256,8 @@
   <widget class="QLineEdit" name="txt_trips">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>380</y>
+     <x>210</x>
+     <y>470</y>
      <width>401</width>
      <height>26</height>
     </rect>
@@ -272,8 +272,8 @@
   <widget class="QLabel" name="label_9">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>380</y>
+     <x>90</x>
+     <y>470</y>
      <width>91</width>
      <height>18</height>
     </rect>
@@ -291,8 +291,8 @@
   <widget class="QLineEdit" name="txt_productive_bonus">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>420</y>
+     <x>270</x>
+     <y>510</y>
      <width>401</width>
      <height>26</height>
     </rect>
@@ -307,8 +307,8 @@
   <widget class="QLabel" name="label_10">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>420</y>
+     <x>90</x>
+     <y>510</y>
      <width>131</width>
      <height>18</height>
     </rect>
@@ -326,8 +326,8 @@
   <widget class="QLineEdit" name="txt_social_security">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>470</y>
+     <x>270</x>
+     <y>560</y>
      <width>401</width>
      <height>26</height>
     </rect>
@@ -342,8 +342,8 @@
   <widget class="QLabel" name="label_11">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>470</y>
+     <x>90</x>
+     <y>560</y>
      <width>171</width>
      <height>18</height>
     </rect>
@@ -361,8 +361,8 @@
   <widget class="QLineEdit" name="txt_IR">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>520</y>
+     <x>270</x>
+     <y>610</y>
      <width>401</width>
      <height>26</height>
     </rect>
@@ -377,8 +377,8 @@
   <widget class="QLabel" name="label_12">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>520</y>
+     <x>90</x>
+     <y>610</y>
      <width>171</width>
      <height>18</height>
     </rect>
@@ -391,6 +391,64 @@
    </property>
    <property name="text">
     <string>I.R. Del trabajo</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_second_surname">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>240</y>
+     <width>401</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_first_surname">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>190</y>
+     <width>401</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>190</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Primer Apellido</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>240</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Segundo Apellido</string>
    </property>
   </widget>
  </widget>
