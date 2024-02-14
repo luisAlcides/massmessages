@@ -4,7 +4,7 @@ from connection import Connection
 from view.newUserWindow import NewUserWindow
 from view.newPersonalWindow import NewPersonalWindow
 from view.personalView import PersonalWindow
-from view.userView import UserWindow
+from view.userWindow import UserWindow
 
 
 class MainWindow():
@@ -14,7 +14,7 @@ class MainWindow():
         
         self.main_window.btn_new_user.triggered.connect(self.openNewRegister)
         self.main_window.btn_new_personal.triggered.connect(self.openNewPersonal)
-        #self.main_window.btn_user.triggered.connect(self.openUser)
+        self.main_window.btn_user.triggered.connect(self.openUser)
         #self.main_window.btn_personal.triggered.connect(self.openPersonal)
         
     

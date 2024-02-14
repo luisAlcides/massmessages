@@ -20,7 +20,7 @@
      <x>0</x>
      <y>0</y>
      <width>875</width>
-     <height>25</height>
+     <height>20</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuArchivo">
@@ -29,7 +29,7 @@
     </property>
     <addaction name="btn_new_user"/>
     <addaction name="btn_new_personal"/>
-    <addaction name="actionVer_Mi_Perfil"/>
+    <addaction name="btn_user"/>
     <addaction name="actionVer_Personal"/>
     <addaction name="btn_primera_quincena"/>
     <addaction name="btn_segunda_quincena"/>
@@ -72,7 +72,7 @@
     <string>Nuevo Personal</string>
    </property>
   </action>
-  <action name="actionVer_Mi_Perfil">
+  <action name="btn_user">
    <property name="text">
     <string>Usuarios</string>
    </property>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1122</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Users Management</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableWidget" name="table_users">
+      <column>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Primer Nombre</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Segundo Nombre</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Primer Apellido</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Segundo Apellido</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Usuario</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>contraseña</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Teléfono</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Role</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Creado</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="btn_refresh">
+        <property name="text">
+         <string>Refrescar</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_delete">
+        <property name="text">
+         <string>Eliminar</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_edit">
+        <property name="text">
+         <string>Editar</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

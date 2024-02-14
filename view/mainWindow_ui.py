@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'c:\Users\leymask\Documents\code\massmessages\view\mainWindow.ui'
+# Form implementation generated from reading ui file '/home/heracle/code/massmessages/view/mainWindow.ui'
 #
 # Created by: PyQt6 UI code generator 6.6.1
 #
@@ -17,7 +17,7 @@ class Ui_main(object):
         self.centralwidget.setObjectName("centralwidget")
         main.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=main)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 875, 25))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 875, 20))
         self.menubar.setObjectName("menubar")
         self.menuArchivo = QtWidgets.QMenu(parent=self.menubar)
         self.menuArchivo.setObjectName("menuArchivo")
@@ -37,8 +37,8 @@ class Ui_main(object):
         self.btnHistorialTransferencias.setObjectName("btnHistorialTransferencias")
         self.btn_new_personal = QtGui.QAction(parent=main)
         self.btn_new_personal.setObjectName("btn_new_personal")
-        self.actionVer_Mi_Perfil = QtGui.QAction(parent=main)
-        self.actionVer_Mi_Perfil.setObjectName("actionVer_Mi_Perfil")
+        self.btn_user = QtGui.QAction(parent=main)
+        self.btn_user.setObjectName("btn_user")
         self.actionVer_Personal = QtGui.QAction(parent=main)
         self.actionVer_Personal.setObjectName("actionVer_Personal")
         self.btn_primera_quincena = QtGui.QAction(parent=main)
@@ -47,7 +47,7 @@ class Ui_main(object):
         self.btn_segunda_quincena.setObjectName("btn_segunda_quincena")
         self.menuArchivo.addAction(self.btn_new_user)
         self.menuArchivo.addAction(self.btn_new_personal)
-        self.menuArchivo.addAction(self.actionVer_Mi_Perfil)
+        self.menuArchivo.addAction(self.btn_user)
         self.menuArchivo.addAction(self.actionVer_Personal)
         self.menuArchivo.addAction(self.btn_primera_quincena)
         self.menuArchivo.addAction(self.btn_segunda_quincena)
@@ -69,7 +69,7 @@ class Ui_main(object):
         self.btnReportarTransferencias.setText(_translate("main", "Reportar Transferencias"))
         self.btnHistorialTransferencias.setText(_translate("main", "Historial de Transferencias"))
         self.btn_new_personal.setText(_translate("main", "Nuevo Personal"))
-        self.actionVer_Mi_Perfil.setText(_translate("main", "Usuarios"))
+        self.btn_user.setText(_translate("main", "Usuarios"))
         self.actionVer_Personal.setText(_translate("main", "Personal"))
         self.btn_primera_quincena.setText(_translate("main", "Primera Quincena"))
         self.btn_segunda_quincena.setText(_translate("main", "Segunda Quincena"))
