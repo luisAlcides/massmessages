@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WorkersWindow</class>
+ <widget class="QMainWindow" name="WorkersWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1350</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Trabajadores</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableWidget" name="table_personal">
+      <column>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Primer Nombre</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Segundo Nombre</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Primer Apellido</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Segundo Apellido</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Teléfono</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Salario base</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Horas extras</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Viáticos</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Domingos 21 28</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Bono Productivo</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Seguro Social Laboral</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>IR</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Created</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="btn_refresh">
+        <property name="text">
+         <string>Refrescar</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_delete">
+        <property name="text">
+         <string>Eliminar</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_edit">
+        <property name="text">
+         <string>Editar</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -30,7 +30,7 @@
     <addaction name="btn_new_user"/>
     <addaction name="btn_new_personal"/>
     <addaction name="btn_user"/>
-    <addaction name="actionVer_Personal"/>
+    <addaction name="btn_personal"/>
     <addaction name="btn_primera_quincena"/>
     <addaction name="btn_segunda_quincena"/>
    </widget>
@@ -77,7 +77,7 @@
     <string>Usuarios</string>
    </property>
   </action>
-  <action name="actionVer_Personal">
+  <action name="btn_personal">
    <property name="text">
     <string>Personal</string>
    </property>
