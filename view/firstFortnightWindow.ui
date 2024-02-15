@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Enviar Mensajes Masivos</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableWidget" name="table_fortnight">
+      <column>
+       <property name="text">
+        <string>Primer Nombre</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Segundo Nombre</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Primer Apellido</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Segundo Apellido</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Teléfono</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Seleccionar</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="btn_selectAll">
+        <property name="text">
+         <string>Seleccionar Todos</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_deselectAll">
+        <property name="text">
+         <string>Deseleccionar Todos</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_send">
+      <property name="text">
+       <string>Enviar Mensajes</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

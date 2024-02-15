@@ -31,7 +31,7 @@
     <addaction name="btn_new_personal"/>
     <addaction name="btn_user"/>
     <addaction name="btn_personal"/>
-    <addaction name="btn_primera_quincena"/>
+    <addaction name="btn_first_fortnight"/>
     <addaction name="btn_segunda_quincena"/>
    </widget>
    <widget class="QMenu" name="menuCreditos">
@@ -82,7 +82,7 @@
     <string>Personal</string>
    </property>
   </action>
-  <action name="btn_primera_quincena">
+  <action name="btn_first_fortnight">
    <property name="text">
     <string>Primera Quincena</string>
    </property>

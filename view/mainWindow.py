@@ -1,5 +1,6 @@
 from PyQt6 import uic
 from connection import Connection
+from view.firstFortnightWindow import FirstFortnightWindow
 
 from view.newUserWindow import NewUserWindow
 from view.newPersonalWindow import NewPersonalWindow
@@ -16,6 +17,7 @@ class MainWindow():
         self.main_window.btn_new_personal.triggered.connect(self.openNewPersonal)
         self.main_window.btn_user.triggered.connect(self.openUser)
         self.main_window.btn_personal.triggered.connect(self.openPersonal)
+        self.main_window.btn_first_fortnight.triggered.connect(self.openFirstFortnight)
         
     
     def openNewRegister(self):
@@ -35,3 +37,8 @@ class MainWindow():
     def openPersonal(self):
         self.personal_window = PersonalWindow()
         return self.personal_window
+    
+    def openFirstFortnight(self):
+        self.first_fortnight = FirstFortnightWindow()
+        return self.first_fortnight
+    
